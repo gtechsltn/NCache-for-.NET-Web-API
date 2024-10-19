@@ -1,0 +1,6 @@
+@NCacheWebApi_HostAddress = http://localhost:5009
+
+GET {{NCacheWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

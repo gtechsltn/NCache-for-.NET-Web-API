@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<ncache-server connection-retries="5" retry-connection-delay="0" retry-interval="1" client-request-timeout="90" connection-timeout="5" port="9800" />
+	<cache id="ClusteredCache" enable-client-logs="False" log-level="error">
+		<server name="192.168.1.4" port="9888" />
+	</cache>
+	<cache id="demoCache" enable-client-logs="False" log-level="error">
+		<server name="192.168.1.4" port="7801" />
+	</cache>
+	<cache id="myCache" enable-client-logs="False" log-level="error">
+		<server name="127.0.0.1" port="9800" />
+	</cache>
+</configuration>
